@@ -1,25 +1,9 @@
-# Ember-rosie
+# Ember-Rosie
 
-This README outlines the details of collaborating on this Ember addon.
+An Ember addon for the Rosie factory library.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+`ember install:addon ember-rosie`
 
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+Documentation is available at the [Rosie repo](https://github.com/bkeepers/rosie).
