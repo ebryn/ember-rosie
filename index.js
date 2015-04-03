@@ -2,5 +2,13 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-rosie'
+  name: 'ember-rosie',
+
+  included: function(app) {
+    this._super.included(app);
+
+    if (app.env !== 'production') {
+      app.import(app.bowerDirectory + '/rosie/src/rosie.js');
+    }
+  }
 };
